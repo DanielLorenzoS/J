@@ -1,0 +1,140 @@
+@media only screen and (max-width: 900px) {
+  .services-section {
+    margin: 0 50px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  #phone, #map, #form {
+    margin: 10px auto;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .services {
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px 60px;
+  }
+  .services-section {
+    margin: 0 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  #img {
+    margin-top: -150px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .titles {
+    margin-top: 200px;
+  }
+  .btn-menu {
+    display: inline-block;
+  }
+  .img-menu {
+    margin-right: -500px;
+    max-width: 60px;
+    max-height: 80px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+  }
+  .beggin {
+    height: 80vh;
+  }
+  .nav-res {
+    display: inline-block;
+    position: fixed;
+    margin: 100px 50px 0 50px;
+    left: 1000px;
+    right: -1000px;
+
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    text-align: center;
+    background: #002570;
+    transition: 1s ease-in-out;
+    z-index: 10;
+  }
+  .inicio, .servicio, .contacto { 
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive; 
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services-section {
+    margin: 10px 15px;
+  }
+  .services {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+  } 
+  #s1, #s2, #s3, #s4 {
+    padding: 5px;
+    height: 35vh;
+    width: 80%; 
+  }
+  .more {
+    align-self: center;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #phone, #map, #form {
+    margin: 10px auto;
+    height: 200px;
+    width: 75%;
+  }  
+}
+@media only screen and (max-width: 290px) {
+  .titles img {
+    font-size: 15px;
+  }
+  /*.arrow {
+    margin-top: 50px;
+  }
+  .arrow img {
+    animation: none;
+    z-index: 10;
+  }
+  .img-menu {
+    margin-right: -500px;
+    max-width: 50px;
+    max-height: 70px;
+  }
+  .beggin {
+    height: 40vh;
+  }
+  #img {
+    margin-top: 100px;
+  }
+  .inicio, .servicio, .contacto {
+    font-size: 25px;
+  } */
+}
+@media only screen and (max-width: 310px) {
+  #phone a {
+    font-size: 17px;
+  } 
+  #form input, #form select {
+    font-size: 10px;
+    margin: 10px 25px;
+  }
+  #form input[type=submit] {
+    margin: 10px auto;
+  }
+  .aviso {
+    font-size: 12px;
+  }
+}
