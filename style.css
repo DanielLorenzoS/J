@@ -72,15 +72,25 @@ body {
 .titles {
 	margin: 0 auto;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	letter-spacing: 8px;
 	color: #002570;
 }
 #img {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	max-width: 350px;
-	max-height: 350px;
+	max-width: 550px;
+	max-height: 550px;
+	filter: grayscale(80%);
+	border-radius: 4px;
 	transition: 1s ease-in-out;
+}
+.titles h1 {
+	font-size: 45px;
+	position: absolute;
+	margin-top: 0;
+	color: #fff;
 }
 .arrow {
 	height: 10vh;
